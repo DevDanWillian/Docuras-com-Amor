@@ -1,25 +1,27 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Image from "next/image";
-import Link from "next/link";
 
-import Logo from "../../../public/elements/logo.jpg";
+import Link from "next/link";
+import Image from "next/image";
+
+import Logo from "/public/elements/logo.jpg";
 
 export const Navbar = () => {
   return (
-    <section className="bg-marrom-claro pt-[2.5%] pb-[2.5%] px-[10%] m rounded-b-2xl ">
+    <section className="bg-rosa-claro pt-4 pb-4  flex justify-center rounded-b-2xl sticky top-0 border-b-8 border-marrom-escuro">
+      <div className="bg-rosa-claro rounded-b-2xl flex items-center text-marrom-escuro text-lg underline-offset-4 gap-10">
 
-      <div className="flex items-center justify-evenly mx-[-20%] border-b-8 border-marrom-escuro pb-[2.5%]">
-        <p className="text-verde-escuro font-serif text-6xl">Doçuras com Amor</p>
-        <Image src={Logo} alt="logo Doçuras com Amor" height={150} className=""/>
-      </div>      
+        <Image src={Logo} width={40} height={40} alt="logo navbar" />
 
-      <div className=" flex items-center justify-center mt-3 text-verde-escuro text-2xl underline-offset-8">
+        <Link href="#inicio" className="hover:underline decoration-wavy">
+          Inicio
+        </Link>
+        <Link href="#produtosId" className="hover:underline decoration-wavy">
+          Produtos
+        </Link>
 
-      <Link href={} className="hover:underline decoration-wavy" replace>Conheça nossos Produtos</Link>
-
+        <Image src={Logo} width={40} height={40} alt="logo navbar" />
+        
       </div>
-    
-<p id=""></p>
     </section>
   );
 };
