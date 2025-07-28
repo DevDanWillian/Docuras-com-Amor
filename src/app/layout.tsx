@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import Navbar from "./components/navbar";
-import ContactNavBar from "./components/ContactNavBar";
 import Header from "./components/header";
 
 export const metadata: Metadata = {
@@ -18,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}>
-        <ContactNavBar />
         <Navbar />
+
         <Header />
         {children}
       </body>

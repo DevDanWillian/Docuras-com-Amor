@@ -6,7 +6,9 @@ import { faSquareWhatsapp, faSquareInstagram } from '@fortawesome/free-brands-sv
 
 const ContactNavBar = () => {
 return(
-  <div className="bg-marrom-escuro text-verde-claro text-lg flex justify-between w-full p-3 sticky top-0">
+  <>
+  
+  <div className="bg-marrom-escuro text-verde-claro text-lg flex justify-between w-full p-3">
     <div className='flex items-center gap-10 '>
       <a href="http://wa.link/4ry9x8" className="" target='_blank'><FontAwesomeIcon icon={faSquareWhatsapp} shake style={{color: "#ffdfff",}} size='xl'/> (21) 98463-2054</a>
       <a href="https://www.instagram.com/docurasamor.oficial/?hl=pt-br" target='_blank'><FontAwesomeIcon icon={faSquareInstagram} style={{color: "#ffdfff"}} size='xl' shake/> docurasamor.oficial</a>
@@ -42,8 +44,8 @@ return(
   
 </form>
 
-
   </div>
+  </>
 )
 }
 
