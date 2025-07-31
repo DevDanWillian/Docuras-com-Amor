@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import Image from "next/image";
 
-const BoloAniversario = "/products/bolo_de_aniversario.png";
+const BoloAniversario = "/products/bolo_de_aniversario.webp";
 
 const Bolos = () => {
   return (
