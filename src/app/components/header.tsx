@@ -15,16 +15,7 @@ const Header = () => {
             Doceria e Confeitaria
           </p>
         </div>
-        <Image
-          src={Logo}
-          alt="logo Doçuras com Amor"
-          style={{
-            maxWidth: "11%",
-            height: "auto",
-          }}
-          className="inline-block align-middle"
-          priority
-        />
+        <Image src={Logo} width={40} height={40} alt="logo navbar" priority className="w-10 h-10"/>
       </div>
       </section>
     </div>

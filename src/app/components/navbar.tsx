@@ -10,17 +10,7 @@ export const Navbar = () => {
       <ContactNavBar />
       <section className="bg-rosa-claro pt-3 pb-3  flex justify-center rounded-b-2xl border-b-8 border-marrom-escuro">
       <div className="bg-rosa-claro rounded-b-2xl flex items-center text-marrom-escuro text-lg underline-offset-4 gap-10">
-
-        <Image
-          src={Logo}
-          alt="logo Doçuras com Amor"
-          style={{
-            maxWidth: "11%",
-            height: "auto",
-          }}
-          className="inline-block align-middle"
-          priority
-        />
+      <Image src={Logo} width={40} height={40} alt="logo navbar" priority className="w-10 h-10"/>
 
         <Link href="#inicio" className="hover:underline decoration-wavy">
           Inicio
@@ -29,16 +19,7 @@ export const Navbar = () => {
           Produtos
         </Link>
 
-        <Image
-          src={Logo}
-          alt="logo Doçuras com Amor"
-          style={{
-            maxWidth: "11%",
-            height: "auto",
-          }}
-          className="inline-block align-middle"
-          priority
-        />
+        <Image src={Logo} width={40} height={40} alt="logo navbar" priority className="w-10 h-10"/>
         
       </div>
     </section>
