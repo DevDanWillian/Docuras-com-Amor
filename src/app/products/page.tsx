@@ -3,14 +3,14 @@ import Image from "next/image";
 
 import ItemSell from "../components/productsComp/ItemSell";
 
-const Pudim = "./products/pudim.webp";
-const OvoDePascoa = '/.products/ovo_pascoa_vermelho.webp'
-const PalhaItaliana = './products/palha_italiana.webp'
-const VulcaoNevado = './products/mini_vulcao_nevado.webp'
-const Guirlanda ='./products/guirlanda.webp'
-const BoloDeBanana = './products/bolo_banana.webp'
-const TacaDaFelicidade = './products/taça_da_felicidade.webp'
-const TortaBrownie = './products/torta_brownie.webp'
+const Pudim = "/products/pudim.webp";
+const OvoDePascoa = '/products/ovo_pascoa_vermelho.webp'
+const PalhaItaliana = '/products/palha_italiana.webp'
+const VulcaoNevado = '/products/mini_vulcao_nevado.webp'
+const Guirlanda = '/products/guirlanda.webp'
+const BoloDeBanana = '/products/bolo_banana.webp'
+const TacaDaFelicidade = '/products/taça_da_felicidade.webp'
+const TortaBrownie = '/products/torta_brownie.webp'
 
 const Produtos = () => {
   return (

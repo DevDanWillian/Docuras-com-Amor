@@ -23,6 +23,7 @@ const Header = () => {
             height: "auto",
           }}
           className="inline-block align-middle"
+          priority
         />
       </div>
       </section>
