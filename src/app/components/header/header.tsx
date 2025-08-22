@@ -15,7 +15,11 @@ const Header = () => {
             Doceria e Confeitaria
           </p>
         </div>
-        <Image src={Logo} width={40} height={40} alt="logo navbar" priority className="w-10 h-10"/>
+        <Image
+          src={Logo}
+          alt="logo Doçuras com Amor"
+          className="w-1/12"
+        />
       </div>
       </section>
     </div>

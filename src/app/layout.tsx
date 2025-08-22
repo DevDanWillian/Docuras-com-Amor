@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import Navbar from "./components/navbar";
-import Header from "./components/header";
+import Navbar from "./components/header/navbar";
+import Header from "./components/header/header";
 
 export const metadata: Metadata = {
   title: "Docuras Com Amor",
