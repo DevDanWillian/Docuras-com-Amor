@@ -1,15 +1,14 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-
-};
-  module.exports = {
-  basePath: '/Docuras-com-Amor',
-  assetPrefix: '/Docuras-com-Amor/',
+  basePath: isProd ? "/Docuras-com-Amor" : undefined,
+  assetPrefix: isProd ? "/Docuras-com-Amor/" : undefined,
   images: {
-    unoptimized: true, // 👈 Desativa otimização automática
+    // Desativa otimização automática para facilitar deploy estático (ex.: GitHub Pages)
+    unoptimized: true,
   },
-
 };
+
 export default nextConfig;

@@ -18,11 +18,7 @@ const Header = () => {
         <Image
           src={Logo}
           alt="logo Doçuras com Amor"
-          style={{
-            maxWidth: "11%",
-            height: "auto",
-          }}
-          className="inline-block align-middle"
+          className="w-1/12"
         />
       </div>
       </section>
