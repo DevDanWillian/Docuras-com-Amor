@@ -10,7 +10,7 @@ const VulcaoNevado = './products/mini_vulcao_nevado.webp';
 const Guirlanda = './products/guirlanda.webp';
 const BoloDeBanana = './products/bolo_banana.webp';
 const TacaDaFelicidade = './products/taca_da_felicidade.webp';
-const TortaBrownie = './products/torta_brownie.webp';
+const TortaBrownie = './products/torta_brownie.webp'
 
 const Produtos = () => {
   return (
@@ -37,12 +37,12 @@ const Produtos = () => {
         
         <ItemSell srcImg={TacaDaFelicidade} altImg="Taça da Felicidade" width={150} height={150} idImg="tacaDaFelicidade" labelTxt="Taça da Felicidade" cost={50} costsLabel="50,00"/>
 
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </section>
   );
 };
