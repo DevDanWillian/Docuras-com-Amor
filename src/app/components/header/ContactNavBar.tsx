@@ -1,37 +1,34 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSquareWhatsapp,
-  faSquareInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
 
 const ContactNavBar = () => {
   return (
     <>
-      <div className="bg-marrom-escuro text-verde-claro text-lg flex justify-between w-full p-3">
-        <div className="flex items-center gap-10 ">
-          <a href="http://wa.link/4ry9x8" className="" target="_blank">
-            <FontAwesomeIcon
-              icon={faSquareWhatsapp}
-              shake
-              style={{ color: "#ffdfff" }}
-              size="xl"
-            />{" "}
-            (21) 98463-2054
-          </a>
-          <a
-            href="https://www.instagram.com/docurasamor.oficial/?hl=pt-br"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faSquareInstagram}
-              style={{ color: "#ffdfff" }}
-              size="xl"
-              shake
-            />{" "}
-            docurasamor.oficial
-          </a>
+      <div className="margin bg-marrom-escuro text-verde-claro text-lg flex justify-between p-3">
+        <div className="flex items-center gap-10">
+          <div className="hover:text-rosa-claro">
+            <a
+              href="http://wa.link/4ry9x8"
+              className="flex items-center gap-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsappSquare className="text-2xl text-verde-claro hover:text-rosa-claro" />
+              <span>(21) 97518-8291</span>
+            </a>
+          </div>
+          <div className="hover:text-rosa-claro">
+            <a
+              href="https://www.instagram.com/docurasamor.oficial/?hl=pt-br"
+              className="flex items-center gap-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagramSquare className="text-2xl text-verde-claro hover:text-rosa-claro" />
+              <span>docurasamor.oficial</span>
+            </a>
+          </div>
         </div>
 
         <form action="" className="relative w-1/3 max-w-md">
@@ -66,7 +63,7 @@ const ContactNavBar = () => {
                 fontFamily="none"
                 fontWeight="none"
                 fontSize="none"
-                textAnchor="none"
+                textAnchor="middle"
                 style={{ mixBlendMode: "normal" }}
               >
                 <g transform="scale(4,4)">

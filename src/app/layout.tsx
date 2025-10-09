@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import Navbar from "./components/header/navbar";
-import Header from "./components/header/header";
-
 export const metadata: Metadata = {
   title: "Docuras Com Amor",
   description: "Sua Doceria e Confeitaria Favorita.",
@@ -14,12 +11,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body suppressHydrationWarning={true}>
-        <Navbar />
+  console.log("Children rendered in layout:", children);
 
-        <Header />
+  return (
+    <html lang="pt">
+      <body suppressHydrationWarning={true}>
         {children}
       </body>
     </html>
