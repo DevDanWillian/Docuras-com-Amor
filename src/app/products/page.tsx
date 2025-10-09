@@ -9,7 +9,7 @@ const PalhaItaliana = './products/palha_italiana.webp'
 const VulcaoNevado = './products/mini_vulcao_nevado.webp'
 const Guirlanda = '/products/guirlanda.webp'
 const BoloDeBanana = '/products/bolo_banana.webp'
-const TacaDaFelicidade = '/products/taça_da_felicidade.webp'
+const TacaDaFelicidade = '/products/taca_da_felicidade.webp'
 const TortaBrownie = '/products/torta_brownie_simple.webp'
 
 const Produtos = () => {
