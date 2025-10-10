@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Image from "next/image";
 
 import ItemSell from "../components/productsComp/ItemSell";
 
@@ -12,7 +11,7 @@ const BoloDeBanana = './products/bolo_banana.webp';
 const TacaDaFelicidade = './products/taca_da_felicidade.webp';
 const TortaBrownie = './products/torta_brownie.webp'
 
-const Produtos = () => {
+const Products = () => {
   return (
     <section className="" id="produtosId">
       <h2 className="text-4xl text-marrom-escuro" >
@@ -46,4 +45,4 @@ const Produtos = () => {
     </section>
   );
 };
-export default Produtos;
+export default Products;
