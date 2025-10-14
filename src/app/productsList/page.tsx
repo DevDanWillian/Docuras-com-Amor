@@ -10,20 +10,18 @@ const ProductsList = () => {
   const [products, setProducts] = useState<iItemSellProps[]>([]);
 
   useEffect(() => {
-    fetch("/api/products")
-      .then((response) => response.json())
-      .then((data) => {
-        if (Array.isArray(data)) {
-          setProducts(data);
-        } else {
-          console.error("API retornou dados inválidos:", data);
-          setProducts([]);
-        }
-      })
-      .catch((error) => {
-        console.error("Erro ao buscar produtos:", error);
-        setProducts([]);
-      });
+    // Use static data instead of API call for GitHub Pages deployment
+    try {
+      const productsWithDimensions = productsData.map(product => ({
+        ...product,
+        width: 150,
+        height: 150
+      }));
+      setProducts(productsWithDimensions);
+    } catch (error) {
+      console.error("Erro ao carregar produtos:", error);
+      setProducts([]);
+    }
   }, []);
 
   return (
