@@ -5,8 +5,8 @@ import { FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
 const ContactNavBar = () => {
   return (
     <>
-      <div className="margin bg-marrom-escuro text-verde-claro text-lg flex justify-between p-3">
-        <div className="flex items-center gap-10">
+      <div className="margin bg-marrom-escuro text-verde-claro text-lg flex justify-between p-3 gap-3">
+        <div className="flex items-center sm:gap-10 md:gap-10">
           <div className="hover:text-rosa-claro" id="whatsapp">
             <a
               href="http://wa.link/4ry9x8"
@@ -32,13 +32,13 @@ const ContactNavBar = () => {
           </div>
         </div>
 
-        <form action="" className="relative w-1/3 max-w-md">
+        <form action="" className="relative sm:w-3/5 md:w-1/3 max-w-md flex">
           <input
             type="search"
             name=""
             id=""
             className="w-full text-marrom-escuro rounded-lg bg-verde-claro py-2 pl-3 pr-14 border-marrom-claro border-4"
-            placeholder="Busque seu Doce!"
+            placeholder="Ache seu Doce!"
           />
           <button
             type="submit"
