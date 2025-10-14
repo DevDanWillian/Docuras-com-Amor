@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Bolo de Banana",
+    "price": 25.00,
+    "image": "/products/bolo_banana.webp",
+    "altImage": "Bolo de Banana caseiro",
+    "description": "Delicioso bolo de banana feito com ingredientes frescos"
+  },
+  {
+    "id": 2,
+    "name": "Bolo de Aniversário",
+    "price": 45.00,
+    "image": "/products/bolo_de_aniversario.webp",
+    "altImage": "Bolo de Aniversário decorado",
+    "description": "Bolo especial para comemorações com decoração personalizada"
+  },
+  {
+    "id": 3,
+    "name": "Guirlanda",
+    "price": 15.00,
+    "image": "/products/guirlanda.webp",
+    "altImage": "Guirlanda de doces",
+    "description": "Guirlanda colorida feita com doces variados"
+  },
+  {
+    "id": 4,
+    "name": "Mini Vulcão Nevado",
+    "price": 12.00,
+    "image": "/products/mini_vulcao_nevado.webp",
+    "altImage": "Mini Vulcão Nevado",
+    "description": "Mini vulcão nevado com cobertura especial"
+  },
+  {
+    "id": 5,
+    "name": "Ovo de Páscoa Brigadeiro",
+    "price": 35.00,
+    "image": "/products/ovo_pascoa_brigadeiro.webp",
+    "altImage": "Ovo de Páscoa de Brigadeiro",
+    "description": "Ovo de Páscoa recheado com brigadeiro cremoso"
+  },
+  {
+    "id": 6,
+    "name": "Ovo de Páscoa Vermelho",
+    "price": 35.00,
+    "image": "/products/ovo_pascoa_vermelho.webp",
+    "altImage": "Ovo de Páscoa Vermelho",
+    "description": "Ovo de Páscoa vermelho com recheio especial"
+  },
+  {
+    "id": 7,
+    "name": "Palha Italiana",
+    "price": 8.00,
+    "image": "/products/palha_italiana.webp",
+    "altImage": "Palha Italiana",
+    "description": "Palha italiana tradicional com chocolate"
+  },
+  {
+    "id": 8,
+    "name": "Pudim",
+    "price": 18.00,
+    "image": "/products/pudim.webp",
+    "altImage": "Pudim caseiro",
+    "description": "Pudim caseiro com calda de caramelo"
+  },
+  {
+    "id": 9,
+    "name": "Taça da Felicidade",
+    "price": 22.00,
+    "image": "/products/taca_da_felicidade.webp",
+    "altImage": "Taça da Felicidade",
+    "description": "Taça recheada com ingredientes especiais"
+  },
+  {
+    "id": 10,
+    "name": "Torta Brownie",
+    "price": 28.00,
+    "image": "/products/torta_brownie.webp",
+    "altImage": "Torta Brownie",
+    "description": "Torta de brownie com cobertura de chocolate"
+  }
+]

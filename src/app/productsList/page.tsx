@@ -4,6 +4,7 @@
 import { useEffect, useState } from "react";
 import ItemSell, { iItemSellProps } from "../components/productsComp/ItemSell";
 import CakesInstagram from "../components/productsComp/CakesInstagram";
+import productsData from "../../data/products.json";
 
 const ProductsList = () => {
   const [products, setProducts] = useState<iItemSellProps[]>([]);
