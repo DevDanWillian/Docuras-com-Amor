@@ -9,8 +9,9 @@ export default function Home() {
     <div className="">
       <ContactNavBar />
       <Header />
-      <div className="mx-3 sm:mx-10 md:mx-20">
+
         <Products />
+      <div className="mx-3 sm:mx-10 md:mx-20">
         <TextBody />
         <CartShop/>
       </div>

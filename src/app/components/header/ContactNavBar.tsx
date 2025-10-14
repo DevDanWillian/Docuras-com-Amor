@@ -7,26 +7,27 @@ const ContactNavBar = () => {
     <>
       <div className="margin bg-marrom-escuro text-verde-claro text-lg flex justify-between p-3">
         <div className="flex items-center gap-10">
-          <div className="hover:text-rosa-claro">
+          <div className="hover:text-rosa-claro" id="whatsapp">
             <a
               href="http://wa.link/4ry9x8"
               className="flex items-center gap-2"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsappSquare className="text-2xl text-verde-claro hover:text-rosa-claro" />
-              <span>(21) 97518-8291</span>
+              <FaWhatsappSquare className="text-6xl text-verde-claro hover:text-rosa-claro" />
+              <span className="hidden sm:inline text-xl">(21) 97518-8291</span>
             </a>
           </div>
-          <div className="hover:text-rosa-claro">
+
+          <div className="hover:text-rosa-claro" id="instagram">
             <a
               href="https://www.instagram.com/docurasamor.oficial/?hl=pt-br"
               className="flex items-center gap-2"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagramSquare className="text-2xl text-verde-claro hover:text-rosa-claro" />
-              <span>docurasamor.oficial</span>
+              <FaInstagramSquare className="text-6xl text-verde-claro hover:text-rosa-claro" />
+              <span className="hidden sm:inline text-xl">docurasamor.oficial</span>
             </a>
           </div>
         </div>

@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
-const tete = '  pudim.webp'
-
 import Image from "next/image";
 interface iItemSellProps {
   image: string;
@@ -48,7 +46,7 @@ const ItemSell = ({
         >
           {name}
         </label>
-        <span>R${formattedPrice}</span>
+        <span>{formattedPrice}</span>
       </button>
     </div>
   );
