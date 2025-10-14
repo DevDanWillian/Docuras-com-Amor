@@ -10,7 +10,6 @@ export default function CartShop() {
 
   useEffect(() => {
     const loadCart = () => {
-      alert("Evento cartUpdated recebido, carregando carrinho...");
       const storedCart = localStorage.getItem("cart") || "[]";
       try {
         const parsedCart = JSON.parse(storedCart);
@@ -24,15 +23,18 @@ export default function CartShop() {
                 "labelTxt" in item
             )
           : [];
-        setCart(validCart); // Atualiza o estado com os itens válidos
+        setCart(validCart);
       } catch (error) {
-        alert("Failed to parse cart data:" + error);
-        setCart([]); // Fallback para um carrinho vazio
+        console.error("Failed to parse cart data:", error);
+        setCart([]);
       }
     };
 
-    loadCart(); // Carrega o carrinho ao montar o componente
-    const handleEvent = () => alert("Evento cartUpdated recebido!");
+    const handleEvent = () => {
+      console.log("Evento cartUpdated capturado");
+      loadCart();
+    };
+
     window.addEventListener("cartUpdated", handleEvent);
 
     return () => {
