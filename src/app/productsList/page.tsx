@@ -1,28 +1,34 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import { useEffect, useState } from "react";
 import ItemSell, { iItemSellProps } from "../components/productsComp/ItemSell";
-import CakesInstagram from "../components/productsComp/CakesInstagram";
+import CakesInstagram from "..//components/productsComp/CakesInstagram";
 import productsData from "../../data/products.json";
 
 const ProductsList = () => {
+
   const [products, setProducts] = useState<iItemSellProps[]>([]);
 
   useEffect(() => {
-    // Use static data instead of API call for GitHub Pages deployment
+    // Use static JSON data instead of API call for static export compatibility
     try {
-      const productsWithDimensions = productsData.map(product => ({
+      // Transform the data to include required width and height properties
+      const transformedProducts = productsData.map(product => ({
         ...product,
         width: 150,
         height: 150
       }));
-      setProducts(productsWithDimensions);
+      setProducts(transformedProducts);
     } catch (error) {
       console.error("Erro ao carregar produtos:", error);
       setProducts([]);
     }
   }, []);
+
+
+
+
+
 
   return (
     <section className="" id="produtosId">
@@ -55,4 +61,5 @@ const ProductsList = () => {
     </section>
   );
 };
-export default ProductsList;
+
+export default ProductsList
