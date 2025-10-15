@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "/public/elements/logo.jpg";
 
 const Header = () => {
   return (
@@ -16,8 +15,10 @@ const Header = () => {
           </p>
         </div>
         <Image
-          src={Logo}
+          src="/elements/logo.jpg"
           alt="logo Doçuras com Amor"
+          width={100}
+          height={100}
           className="w-1/12"
         />
       </div>

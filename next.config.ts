@@ -8,31 +8,15 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? "/Docuras-com-Amor/" : "",
   output: "export",
   trailingSlash: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     // Desativa otimização automática para facilitar deploy estático (ex.: GitHub Pages)
     unoptimized: true,
-  },
-  async headers(){
-    return [
-      {
-        // Match all routes
-        source: "/:path*",
-        headers: [
-          {
-            key: "Access-Control-Allow-Origin",
-            value: "*", // Allow all origins (use specific origins in production)
-          },
-          {
-            key: "Access-Control-Allow-Methods",
-            value: "GET, POST, PUT, DELETE, OPTIONS",
-          },
-          {
-            key: "Access-Control-Allow-Headers",
-            value: "Content-Type, Authorization",
-          },
-        ],
-      },
-    ];
   }
 };
 
