@@ -8,9 +8,6 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? "/Docuras-com-Amor/" : "",
   output: "export",
   trailingSlash: true,
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   eslint: {
     ignoreDuringBuilds: true,
   },
