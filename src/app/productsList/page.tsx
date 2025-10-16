@@ -12,11 +12,16 @@ const ProductsList = () => {
   useEffect(() => {
     // Use static JSON data instead of API call for static export compatibility
     try {
-      // Transform the data to include required width and height properties
+      // Get basePath for production deployment
+      const isProd = process.env.NODE_ENV === "production" || process.env.GITHUB_PAGES === "true";
+      const basePath = isProd ? "/Docuras-com-Amor" : "";
+      
+      // Transform the data to include required width and height properties and correct image paths
       const transformedProducts = productsData.map(product => ({
         ...product,
         width: 150,
-        height: 150
+        height: 150,
+        image: basePath + product.image
       }));
       setProducts(transformedProducts);
     } catch (error) {

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Bolo de Banana",
     "price": 25.00,
-    "image": "/products/bolo_banana",
+    "image": "/products/bolo_banana.webp",
     "altImage": "Bolo de Banana caseiro",
     "description": "Delicioso bolo de banana feito com ingredientes frescos"
   },
