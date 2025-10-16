@@ -1,7 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import Image from "next/image";
+
 interface iItemSellProps {
   image: string;
   altImage: string;
