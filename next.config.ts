@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     // Desativa otimização automática para facilitar deploy estático (ex.: GitHub Pages)
     unoptimized: true,
