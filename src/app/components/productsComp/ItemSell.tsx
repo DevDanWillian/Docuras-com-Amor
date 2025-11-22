@@ -14,8 +14,6 @@ interface iItemSellProps {
 const ItemSell = ({
   image,
   altImage,
-  width,
-  height,
   id,
   name,
   price,
