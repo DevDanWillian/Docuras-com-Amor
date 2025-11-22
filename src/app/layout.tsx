@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,13 +12,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  console.log("Children rendered in layout:", children);
-
   return (
     <html lang="pt">
       <head>
-        <script src="https://snapwidget.com/js/snapwidget.js" async></script>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+        <Script
+          src="https://snapwidget.com/js/snapwidget.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"
+          strategy="afterInteractive"
+          type="module"
+        />
       </head>
       <body suppressHydrationWarning={true}>
         {children}

@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import CartShop from "./cartShop";
 
 interface iItemSellProps {
   image: string;
