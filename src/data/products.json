@@ -1,82 +1,57 @@
 [
   {
     "id": 1,
-    "name": "Bolo de Banana",
-    "price": 25.00,
-    "image": "/products/bolo_banana.webp",
-    "altImage": "Bolo de Banana caseiro",
-    "description": "Delicioso bolo de banana feito com ingredientes frescos"
+    "name": "Brigadeirão Branco com Morango",
+    "price": 19.99,
+    "image": "/products/Brigaderao_branco_morango.jpg",
+    "altImage": "Brigadeirão branco com cobertura de geleia de morango",
+    "weight": "250G"
   },
   {
     "id": 2,
-    "name": "Bolo de Aniversário",
-    "price": 45.00,
-    "image": "/products/bolo_de_aniversario.webp",
-    "altImage": "Bolo de Aniversário decorado",
-    "description": "Bolo especial para comemorações com decoração personalizada"
+    "name": "Brigadeirão Tradicional",
+    "price": 17.99,
+    "image": "/products/Brigadeirao_preto.jpg",
+    "altImage": "Brigadeirão tradicional com granulado de chocolate",
+    "weight": "250G"
   },
   {
     "id": 3,
-    "name": "Guirlanda",
-    "price": 15.00,
-    "image": "/products/guirlanda.webp",
-    "altImage": "Guirlanda de doces",
-    "description": "Guirlanda colorida feita com doces variados"
+    "name": "Mini Pudim de Leite Condendesado",
+    "price": 18.99,
+    "image": "/products/mini_Pudim.jpg",
+    "altImage": "Mini Pudim de Leite Condendesado",
+    "weight": "250G"
   },
   {
     "id": 4,
-    "name": "Mini Vulcão Nevado",
-    "price": 12.00,
-    "image": "/products/mini_vulcao_nevado.webp",
-    "altImage": "Mini Vulcão Nevado",
-    "description": "Mini vulcão nevado com cobertura especial"
+    "name": "Copo Rafaello",
+    "price": 19.99,
+    "image": "/products/copo_rafaello.jpg",
+    "altImage": "Copo de creme de Ninho, beijinhos, coco em flocos e nozes, com Rafaello por cima",
+    "weight": "200Ml"
   },
   {
     "id": 5,
-    "name": "Ovo de Páscoa Brigadeiro",
-    "price": 35.00,
-    "image": "/products/ovo_pascoa_brigadeiro.webp",
-    "altImage": "Ovo de Páscoa de Brigadeiro",
-    "description": "Ovo de Páscoa recheado com brigadeiro cremoso"
-  },
-  {
+    "name": "Cuzcuz Branco",
+    "price": 12.99,
+    "image": "/products/cuzcuz_branco.jpg",
+    "altImage": "Cuscuz branco com leite condensado e coco",
+    "weight": "120G"
+  },{
     "id": 6,
-    "name": "Ovo de Páscoa Vermelho",
-    "price": 35.00,
-    "image": "/products/ovo_pascoa_vermelho.webp",
-    "altImage": "Ovo de Páscoa Vermelho",
-    "description": "Ovo de Páscoa vermelho com recheio especial"
+    "name": "Copo Ferrero Rocher",
+    "price": 17.99,
+    "image": "/products/copo_ferrero.jpg",
+    "altImage": "Brigadeirão cremoso com Nutella e granulado de chocolate com Ferrero Rocher por cima",
+    "weight": "200Ml"
   },
   {
     "id": 7,
-    "name": "Palha Italiana",
-    "price": 8.00,
-    "image": "/products/palha_italiana.webp",
-    "altImage": "Palha Italiana",
-    "description": "Palha italiana tradicional com chocolate"
-  },
-  {
-    "id": 8,
-    "name": "Pudim",
-    "price": 18.00,
-    "image": "/products/pudim.webp",
-    "altImage": "Pudim caseiro",
-    "description": "Pudim caseiro com calda de caramelo"
-  },
-  {
-    "id": 9,
-    "name": "Taça da Felicidade",
-    "price": 22.00,
-    "image": "/products/taca_da_felicidade.webp",
-    "altImage": "Taça da Felicidade",
-    "description": "Taça recheada com ingredientes especiais"
-  },
-  {
-    "id": 10,
-    "name": "Torta Brownie",
-    "price": 28.00,
-    "image": "/products/torta_brownie.webp",
-    "altImage": "Torta Brownie",
-    "description": "Torta de brownie com cobertura de chocolate"
+    "name": "Copo Nuvem Paçoca",
+    "price": 19.99,
+    "image": "/products/nuvem_pacoca.jpg",
+    "altImage": "Delicioso creme de amendoim,integalado com a verdadeira paçoca",
+    "weight": "250Ml"
   }
 ]

@@ -17,6 +17,7 @@ export default function RootLayout({
     <html lang="pt">
       <head>
         <script src="https://snapwidget.com/js/snapwidget.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
       </head>
       <body suppressHydrationWarning={true}>
         {children}

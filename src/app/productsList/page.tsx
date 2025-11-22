@@ -15,7 +15,7 @@ const ProductsList = () => {
       // Get basePath for production deployment
       const isProd = process.env.NODE_ENV === "production" || process.env.GITHUB_PAGES === "true";
       const basePath = isProd ? "/Docuras-com-Amor" : "";
-      
+
       // Transform the data to include required width and height properties and correct image paths
       const transformedProducts = productsData.map(product => ({
         ...product,
@@ -45,7 +45,7 @@ const ProductsList = () => {
         <h3 className="text-3xl text-marrom-escuro my-1 flex ">Doces</h3>
         <div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 my-2"
-          
+
         >
           {products.map((item) => (
             <ItemSell
@@ -57,12 +57,13 @@ const ProductsList = () => {
               id={item.id}
               name={item.name}
               price={item.price}
+              weight={item.weight}
             />
           ))}
         </div>
       </div>
 
-      <CakesInstagram/>
+      <CakesInstagram />
     </section>
   );
 };
